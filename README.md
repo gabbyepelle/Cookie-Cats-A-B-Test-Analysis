@@ -55,6 +55,8 @@ cookie-cats-ab-test/
 
 Gate_30 shows a **0.82 percentage point higher 7-day retention rate** than gate_40 (19.02% vs. 18.20%), a ~4.3% relative difference. With 90,000+ players, this effect is statistically reliable. In a free-to-play game where long-term retention drives monetization, a difference of this magnitude is operationally meaningful.
 
+📊 View the Tableau Dashboard : (https://public.tableau.com/app/profile/gabrielle.epelle/viz/CookieCats_17826759522930/CookieCatsABTestGatePlacementEffectsOnPlayerRetention?publish=yes)
+
 **Recommendation: retain the gate at level 30.** The data does not support moving the gate to level 40.
 
 ## Data Quality
