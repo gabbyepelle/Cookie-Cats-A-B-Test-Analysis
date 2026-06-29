@@ -31,7 +31,7 @@ cookie-cats-ab-test/
 
 ## Hypothesis
 
-**If** the first gate is moved from level 30 to level 40, **then** 7-day player retention will decrease, **because** the earlier gate creates a natural break that reinforces the habit of returning to the game before players have had a chance to disengage.
+**If** the first gate is moved from level 30 to level 40, then 7-day retention will increase, because players will have more time to become invested in the game before hitting friction.
 
 ## Statistical Design
 
