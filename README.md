@@ -12,7 +12,7 @@ The project follows a pre-registration framework: the experiment design document
 
 ```
 cookie-cats-ab-test/
-├── experiment_design_doc.docx   # Pre-registered experiment design: hypothesis, MDE, power, sample size
+├── experiment_design.md   # Pre-registered experiment design: hypothesis, MDE, power, sample size
 ├── analysis.ipynb               # Statistical analysis notebook
 └── README.md
 ```
@@ -61,9 +61,9 @@ Gate_30 shows a **0.82 percentage point higher 7-day retention rate** than gate_
 
 ## Data Quality
 
-A sample ratio mismatch (SRM) check was performed using a chi-square goodness-of-fit test against the intended 50/50 allocation. The test returned p = 0.0086, indicating a statistically significant deviation from the expected split (observed: 50.4% / 49.6%, a difference of ~789 players).
+A sample ratio mismatch check returned p = 0.0086, indicating a statistically significant deviation from the intended 50/50 split (observed: 50.4% gate_40 / 49.6% gate_30, a difference of ~789 players). The absolute imbalance is modest and unlikely to materially bias retention estimates, but would warrant investigation into the randomization mechanism in a production setting.
 
-While the absolute imbalance is modest and unlikely to materially bias the retention estimates, an SRM of this kind would trigger an investigation into the randomization mechanism in a production setting before results are acted upon.
+Post-hoc MDE calculation confirms the experiment was sensitive enough to detect differences as small as 0.74 pp (3.9% relative lift) at α = 0.05 and 80% power. The non-significant 1-day retention result (p = 0.074) should therefore be interpreted as a genuine null effect rather than a power limitation. The experiment had sufficient sensitivity to detect effects smaller than those observed.
 
 ## Tools & Methods
 
