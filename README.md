@@ -13,7 +13,7 @@ The project follows a pre-registration framework: the experiment design document
 ```
 cookie-cats-ab-test/
 ├── experiment_design.md   # Pre-registered experiment design: hypothesis, MDE, power, sample size
-├── analysis.ipynb               # Statistical analysis notebook
+├── cookie-cats-a-b-testing.jpynb               # Statistical analysis notebook
 └── README.md
 ```
 
